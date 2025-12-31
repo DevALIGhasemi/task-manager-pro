@@ -22,6 +22,25 @@ A professional **Task Management Desktop Application** developed using **Python 
 - ⏳ Splash screen with loading animation
 - 💾 SQLite local database
 - 🔁 Real-time UI updates
+- ⏰ **Task reminder with scheduled notifications (NEW)** 🔔
+
+---
+
+## 🆕 New Update – Task Reminder & Notification System
+
+> 🔔 **New Feature Added!**
+
+Task Manager Pro now supports **task scheduling with notifications**, so you never forget important tasks.
+
+### ⏰ Task Reminder Features
+
+- 🕒 Set **date & time** for each task  
+- 🔔 Automatic **desktop notification** at the scheduled time  
+- ⏱ Background timer checks reminders in real-time  
+- 🔁 Notifications work while the app is running  
+- 📌 Ideal for deadlines, meetings, and daily reminders  
+
+> 🇮🇷 All reminder texts and notifications are fully **Persian (Farsi)**.
 
 ---
 
@@ -38,12 +57,13 @@ A professional **Task Management Desktop Application** developed using **Python 
 ## 🛠️ Technologies & Tools
 
 | Technology | Usage |
-|-----------|------|
+|----------|------|
 | Python 3 | Core language |
 | PySide6 | Desktop UI (Qt) |
 | SQLite | Local database |
 | Qt Widgets | UI Components |
 | RTL Layout | Persian language support |
+| QTimer | Reminder & notification system |
 
 ---
 
@@ -53,15 +73,14 @@ A professional **Task Management Desktop Application** developed using **Python 
 ```bash
 git clone https://github.com/DevALIGhasemi/task-manager-pro.git
 cd task-manager-pro
+```
 
-
-## 📦 Installation
-
-### 1️⃣ Clone the repository
+### 2️⃣ Install dependencies
 ```bash
-1-git clone https://github.com/DevALIGhasemi/task-manager-pro.git
-2-cd task-manager-pro
-3-pip install PySide6
-5-python Taskmanager.py
+pip install PySide6
+```
 
-
+### 3️⃣ Run the application
+```bash
+python Taskmanager.py
+```
